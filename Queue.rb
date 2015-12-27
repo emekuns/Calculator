@@ -22,15 +22,15 @@ class Queue2 < AbstractList
 	end
 end
 
-queue = Queue2.new
+# queue = Queue2.new
 
-queue.enqueue(5)
-queue.enqueue(1)
-queue.enqueue(8)
-queue.enqueue(4)
-queue.enqueue(7)
+# queue.enqueue(5)
+# queue.enqueue(1)
+# queue.enqueue(8)
+# queue.enqueue(4)
+# queue.enqueue(7)
 
-puts queue.dequeue
+# puts queue.dequeue
 
 # queue.to_s
 

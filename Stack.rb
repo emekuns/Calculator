@@ -33,13 +33,12 @@ end
 # stack.push(4)
 # stack.push(7)
 
-# # puts stack.top
-# puts stack.pop
-# # puts stack.top
-# puts stack.pop
-# # puts stack.top
+# stack.pop
+# stack.pop
 
-# # stack.to_s
+# puts stack.top
+
+# stack.to_s
 
 
 

@@ -5,10 +5,10 @@ class AbstractList
 	@first = nil
 	@last = nil
 
-	# def initialize
- #    	raise NotImplementedError.
- #      		new("#{self.class.name} is an abstract class.")
- #  	end
+	def initialize
+    	raise NotImplementedError.
+      		new("#{self.class.name} is an abstract class.")
+  	end
 
 	def insertFront(item)
 		node = Node.new(item)
@@ -48,7 +48,7 @@ class AbstractList
 			curr = curr.nextNode
 		end
 	end
-	# protected :insertFront, :insertBack, :removeFront
+	protected :insertFront, :insertBack, :removeFront
 end
 
 # puts "Abstact List"
@@ -62,7 +62,7 @@ end
 # list.insertBack(0)
 
 # list.removeFront
-# # list.removeFront
+# list.removeFront
 
 # list.to_s
 
